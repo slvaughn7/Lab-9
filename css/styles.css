@@ -1,0 +1,104 @@
+body {
+  font-family: helvetica;
+  background-color: beige;
+}
+
+@font-face {
+font-family: "riesling";
+src: url("reisling.eot");
+src: url("riesling.eot?iefix") format('eot'),
+     url("riesling.woff") format('woff'),
+     url("riesling.ttf") format('truetype'),
+     url("riesling.svg#webfont") format('svg');
+   }
+
+header {
+  background-color: #D4A190;
+  color: white;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "riesling";
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+header p {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav {
+  color: white;
+  font-weight: bold;
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 6px;
+}
+
+li {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #C390D4;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+div {
+  background-color: white;
+  display: block;
+  border-radius: 2px;
+}
+
+.preview {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+#day-one {
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  margin-left: 35%;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  header {
+    width: 75%;
+  }
+  div {
+    width: 75%;
+    height: 75%;
+  }
+  .preview {
+    display: inline-block;
+    width: 75%;
+    height: 75%;
+  }
+  img {
+    width: 75%;
+    height: 75%;
+  }
+}
